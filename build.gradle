@@ -2,7 +2,7 @@ group 'java-appium-sample'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
 
 sourceCompatibility = 1.8
