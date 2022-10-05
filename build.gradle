@@ -11,11 +11,7 @@ repositories {
 
     maven { url "https://cloud.experitest.com/repo" }
     maven { 
-        url "http://repo1.maven.org/maven2"
-        allowInsecureProtocol = true
-    }
-    jcenter { 
-        url "http://jcenter.bintray.com/" 
+        url 'http://repo1.maven.org/maven2'
         allowInsecureProtocol = true
     }
     mavenCentral()
