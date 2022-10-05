@@ -10,7 +10,10 @@ sourceCompatibility = 1.8
 repositories {
 
     maven { url "https://cloud.experitest.com/repo" }
-    maven { url "http://repo.maven.apache.org/maven2" }
+    maven { 
+        url "http://repo.maven.apache.org/maven2" 
+        allowInsecureProtocol = true
+    }
     mavenCentral()
 }
 
