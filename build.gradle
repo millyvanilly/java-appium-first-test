@@ -15,8 +15,8 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile group: 'com.experitest', name: 'appium', version:'4.1.2'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'com.experitest', name: 'appium', version:'4.1.2'
 
 }
 
