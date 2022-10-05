@@ -14,7 +14,10 @@ repositories {
         url "http://repo.maven.apache.org/maven2" 
         allowInsecureProtocol = true
     }
-    jcenter { url "http://jcenter.bintray.com/" }
+    jcenter { 
+        url "http://jcenter.bintray.com/" 
+        allowInsecureProtocol = true
+    }
     mavenCentral()
 }
 
